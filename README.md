@@ -30,7 +30,7 @@ Using Python w/  OpenAI's language models (LLMs). By leveraging OpenAI's powerfu
    - **`get_llm_response(prompt)`**: returns the model’s response as a string.
    - **`get_chat_completion(prompt, history)`**: retrieves a response considering the conversation history.
 
-## Usage
+### **[`Helper Script`](./helper_functions.py)** - Shortened;
 
 ```python
 import openai

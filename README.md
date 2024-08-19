@@ -1,5 +1,5 @@
 # NOT didactic-octo-guacamole
-> Don't worry about the repo name - I let GitHub autogenerate this :)  
+> Don't worry about the repo name - I let GitHub autogenerate this, because it's memorable :)  
 
 Using Python w/  OpenAI's language models (LLMs). By leveraging OpenAI's powerful API, you can create intelligent scripts to handle various automated tasks with natural language processing.
 

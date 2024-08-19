@@ -23,7 +23,7 @@ Using Python w/  OpenAI's language models (LLMs). By leveraging OpenAI's powerfu
    OPENAI_API_KEY=your_openai_api_key
    ```
 
-3. **Helper Script**
+###  **[`Helper Script`](./helper_functions.py)**
 
    - **`request_completion(prompt, model)`**: requests a completion from OpenAI's LLM.
    - **`print_llm_response(prompt)`**: prints the response of the model for a given prompt.

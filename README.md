@@ -1,11 +1,12 @@
 # NOT didactic-octo-guacamole
-> Don't worry about the repo name - I let GitHub autogenerate this, because it's memorable :)  
 
-Using Python w/  OpenAI's language models (LLMs). By leveraging OpenAI's powerful API, you can create intelligent scripts to handle various automated tasks with natural language processing.
+Using Python w/  OpenAI's language models (LLMs). By leveraging OpenAI's powerful API, you can create intelligent scripts to handle  automated tasks with natural language processing.
+
+> Don't worry about the repo name - I let GitHub autogenerate this, because it's memorable :)  
 
 ## Requirements
 
-- Python 3.x
+- Python 3.12
 - `openai` library
 - `.env` file with `OPENAI_API_KEY`
 
@@ -14,6 +15,7 @@ Using Python w/  OpenAI's language models (LLMs). By leveraging OpenAI's powerfu
 1. **Install Dependencies**
 
    ```bash
+   # create virtaul environment if need be;
    pip install openai python-dotenv
    ```
 
@@ -21,6 +23,10 @@ Using Python w/  OpenAI's language models (LLMs). By leveraging OpenAI's powerfu
 
    ```plaintext
    OPENAI_API_KEY=your_openai_api_key
+   ```
+   ```bash
+   # or export as environment variable;
+   export OPENAI_API_KEY=your_openai_api_key 
    ```
 
 ###  **[`Helper Script`](./helper_functions.py)**
@@ -54,7 +60,6 @@ def request_completion(prompt, model):
     return completion.choices[0].message['content']
 
 # sample usage
-response = request_completion("How can I automate tasks with Python?", MODEL)
+response = request_completion('PokeAPI', MODEL)
 print(response)
 ```
-

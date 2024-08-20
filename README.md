@@ -2,7 +2,17 @@
 
 Using Python w/  OpenAI's language models (LLMs). By leveraging OpenAI's powerful API, you can create intelligent scripts to handle  automated tasks with natural language processing.
 
-> Don't worry about the repo name - I let GitHub autogenerate this, because it's memorable :)  
+<div style="
+    background: linear-gradient(135deg, #0f7073, #203a43, #2c5364);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: left;
+">
+    <p>Don't worry about the repo name - I let GitHub autogenerate this, because it's memorable :)  </p>
+</div>
+
 
 ## Requirements
 

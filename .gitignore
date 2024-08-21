@@ -1,3 +1,4 @@
 .env
+.ipynb_checkpoints
 hello_ai
 __pycache__

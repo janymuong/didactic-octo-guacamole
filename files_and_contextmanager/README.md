@@ -8,12 +8,12 @@ with open("file.txt", "w") as file:
     file.write("This is a second line.\n")  # writing multiple lines
 
 # reading from a file
-with open("example.txt", "r") as file:
+with open("file.txt", "r") as file:
     content = file.read()
     print(content)  # Prints the entire file content
 
 # appending to a file
-with open("example.txt", "a") as file:
+with open("file.txt", "a") as file:
     file.write("This line is appended.\n")
 ```
 
@@ -26,7 +26,7 @@ with open("example.txt", "a") as file:
 
 ### **Reading Line by Line**
 ```python
-with open("example.txt", "r") as file:
+with open("file.txt", "r") as file:
     for line in file:
         print(line.strip())  # removes trailing newlines
 ```
@@ -46,6 +46,6 @@ def open_file(filename, mode):
         file.close()  # ensures file is closed properly
 
 # using the custom context manager
-with open_file("example.txt", "r") as f:
+with open_file("file.txt", "r") as f:
     print(f.read())
 ```

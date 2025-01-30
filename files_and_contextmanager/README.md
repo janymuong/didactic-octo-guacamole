@@ -2,17 +2,17 @@ In Python, working with files is typically done using the `open()` function, and
 
 ### **Basic File Operations with a Context Manager**
 ```python
-# Writing to a file
-with open("example.txt", "w") as file:
+# writing to a file
+with open("file.txt", "w") as file:
     file.write("Hello, Python!\n")
-    file.write("This is a second line.\n")  # Writing multiple lines
+    file.write("This is a second line.\n")  # writing multiple lines
 
-# Reading from a file
+# reading from a file
 with open("example.txt", "r") as file:
     content = file.read()
     print(content)  # Prints the entire file content
 
-# Appending to a file
+# appending to a file
 with open("example.txt", "a") as file:
     file.write("This line is appended.\n")
 ```

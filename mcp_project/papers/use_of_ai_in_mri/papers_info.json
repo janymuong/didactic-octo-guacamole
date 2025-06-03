@@ -1,0 +1,103 @@
+{
+  "2502.02351v1": {
+    "title": "Exploring the Feasibility of AI-Assisted Spine MRI Protocol Optimization Using DICOM Image Metadata",
+    "authors": [
+      "Alice Vian",
+      "Diego Andre Eifer",
+      "Mauricio Anes",
+      "Guilherme Ribeiro Garcia",
+      "Mariana Recamonde-Mendoza"
+    ],
+    "summary": "Artificial intelligence (AI) is increasingly being utilized to optimize\nmagnetic resonance imaging (MRI) protocols. Given that image details are\ncritical for diagnostic accuracy, optimizing MRI acquisition protocols is\nessential for enhancing image quality. While medical physicists are responsible\nfor this optimization, the variability in equipment usage and the wide range of\nMRI protocols in clinical settings pose significant challenges. This study aims\nto validate the application of AI in optimizing MRI protocols using dynamic\ndata from clinical practice, specifically DICOM metadata. To achieve this, four\nMRI spine exam databases were created, with the target attribute being the\nbinary classification of image quality (good or bad). Five AI models were\ntrained to identify trends in acquisition parameters that influence image\nquality, grounded in MRI theory. These trends were analyzed using SHAP graphs.\nThe models achieved F1 performance ranging from 77% to 93% for datasets\ncontaining 292 or more instances, with the observed trends aligning with MRI\ntheory. The models effectively reflected the practical realities of clinical\nMRI settings, offering a valuable tool for medical physicists in quality\ncontrol tasks. In conclusion, AI has demonstrated its potential to optimize MRI\nprotocols, supporting medical physicists in improving image quality and\nenhancing the efficiency of quality control in clinical practice.",
+    "pdf_url": "http://arxiv.org/pdf/2502.02351v1",
+    "published": "2025-02-04"
+  },
+  "2502.00146v1": {
+    "title": "Multimodal MRI-Ultrasound AI for Prostate Cancer Detection Outperforms Radiologist MRI Interpretation: A Multi-Center Study",
+    "authors": [
+      "Hassan Jahanandish",
+      "Shengtian Sang",
+      "Cynthia Xinran Li",
+      "Sulaiman Vesal",
+      "Indrani Bhattacharya",
+      "Jeong Hoon Lee",
+      "Richard Fan",
+      "Geoffrey A. Sonna",
+      "Mirabela Rusu"
+    ],
+    "summary": "Pre-biopsy magnetic resonance imaging (MRI) is increasingly used to target\nsuspicious prostate lesions. This has led to artificial intelligence (AI)\napplications improving MRI-based detection of clinically significant prostate\ncancer (CsPCa). However, MRI-detected lesions must still be mapped to\ntransrectal ultrasound (TRUS) images during biopsy, which results in missing\nCsPCa. This study systematically evaluates a multimodal AI framework\nintegrating MRI and TRUS image sequences to enhance CsPCa identification. The\nstudy included 3110 patients from three cohorts across two institutions who\nunderwent prostate biopsy. The proposed framework, based on the 3D UNet\narchitecture, was evaluated on 1700 test cases, comparing performance to\nunimodal AI models that use either MRI or TRUS alone. Additionally, the\nproposed model was compared to radiologists in a cohort of 110 patients. The\nmultimodal AI approach achieved superior sensitivity (80%) and Lesion Dice\n(42%) compared to unimodal MRI (73%, 30%) and TRUS models (49%, 27%). Compared\nto radiologists, the multimodal model showed higher specificity (88% vs. 78%)\nand Lesion Dice (38% vs. 33%), with equivalent sensitivity (79%). Our findings\ndemonstrate the potential of multimodal AI to improve CsPCa lesion targeting\nduring biopsy and treatment planning, surpassing current unimodal models and\nradiologists; ultimately improving outcomes for prostate cancer patients.",
+    "pdf_url": "http://arxiv.org/pdf/2502.00146v1",
+    "published": "2025-01-31"
+  },
+  "2310.07250v3": {
+    "title": "Synthesizing Missing MRI Sequences from Available Modalities using Generative Adversarial Networks in BraTS Dataset",
+    "authors": [
+      "Ibrahim Ethem Hamamci"
+    ],
+    "summary": "Glioblastoma is a highly aggressive and lethal form of brain cancer. Magnetic\nresonance imaging (MRI) plays a significant role in the diagnosis, treatment\nplanning, and follow-up of glioblastoma patients due to its non-invasive and\nradiation-free nature. The International Brain Tumor Segmentation (BraTS)\nchallenge has contributed to generating numerous AI algorithms to accurately\nand efficiently segment glioblastoma sub-compartments using four structural\n(T1, T1Gd, T2, T2-FLAIR) MRI scans. However, these four MRI sequences may not\nalways be available. To address this issue, Generative Adversarial Networks\n(GANs) can be used to synthesize the missing MRI sequences. In this paper, we\nimplement and utilize an open-source GAN approach that takes any three MRI\nsequences as input to generate the missing fourth structural sequence. Our\nproposed approach is contributed to the community-driven generally nuanced deep\nlearning framework (GaNDLF) and demonstrates promising results in synthesizing\nhigh-quality and realistic MRI sequences, enabling clinicians to improve their\ndiagnostic capabilities and support the application of AI methods to brain\ntumor MRI quantification.",
+    "pdf_url": "http://arxiv.org/pdf/2310.07250v3",
+    "published": "2023-10-11"
+  },
+  "2404.19665v1": {
+    "title": "ATOMMIC: An Advanced Toolbox for Multitask Medical Imaging Consistency to facilitate Artificial Intelligence applications from acquisition to analysis in Magnetic Resonance Imaging",
+    "authors": [
+      "Dimitrios Karkalousos",
+      "Ivana I\u0161gum",
+      "Henk A. Marquering",
+      "Matthan W. A. Caan"
+    ],
+    "summary": "AI is revolutionizing MRI along the acquisition and processing chain.\nAdvanced AI frameworks have been developed to apply AI in various successive\ntasks, such as image reconstruction, quantitative parameter map estimation, and\nimage segmentation. Existing frameworks are often designed to perform tasks\nindependently or are focused on specific models or datasets, limiting\ngeneralization. We introduce ATOMMIC, an open-source toolbox that streamlines\nAI applications for accelerated MRI reconstruction and analysis. ATOMMIC\nimplements several tasks using DL networks and enables MultiTask Learning (MTL)\nto perform related tasks integrated, targeting generalization in the MRI\ndomain. We first review the current state of AI frameworks for MRI through a\ncomprehensive literature search and by parsing 12,479 GitHub repositories. We\nbenchmark 25 DL models on eight publicly available datasets to present distinct\napplications of ATOMMIC on accelerated MRI reconstruction, image segmentation,\nquantitative parameter map estimation, and joint accelerated MRI reconstruction\nand image segmentation utilizing MTL. Our findings demonstrate that ATOMMIC is\nthe only MTL framework with harmonized complex-valued and real-valued data\nsupport. Evaluations on single tasks show that physics-based models, which\nenforce data consistency by leveraging the physical properties of MRI,\noutperform other models in reconstructing highly accelerated acquisitions.\nPhysics-based models that produce high reconstruction quality can accurately\nestimate quantitative parameter maps. When high-performing reconstruction\nmodels are combined with robust segmentation networks utilizing MTL,\nperformance is improved in both tasks. ATOMMIC facilitates MRI reconstruction\nand analysis by standardizing workflows, enhancing data interoperability,\nintegrating unique features like MTL, and effectively benchmarking DL models.",
+    "pdf_url": "http://arxiv.org/pdf/2404.19665v1",
+    "published": "2024-04-30"
+  },
+  "2310.04630v1": {
+    "title": "Metadata-Conditioned Generative Models to Synthesize Anatomically-Plausible 3D Brain MRIs",
+    "authors": [
+      "Wei Peng",
+      "Tomas Bosschieter",
+      "Jiahong Ouyang",
+      "Robert Paul",
+      "Ehsan Adeli",
+      "Qingyu Zhao",
+      "Kilian M. Pohl"
+    ],
+    "summary": "Generative AI models hold great potential in creating synthetic brain MRIs\nthat advance neuroimaging studies by, for example, enriching data diversity.\nHowever, the mainstay of AI research only focuses on optimizing the visual\nquality (such as signal-to-noise ratio) of the synthetic MRIs while lacking\ninsights into their relevance to neuroscience. To gain these insights with\nrespect to T1-weighted MRIs, we first propose a new generative model,\nBrainSynth, to synthesize metadata-conditioned (e.g., age- and sex-specific)\nMRIs that achieve state-of-the-art visual quality. We then extend our\nevaluation with a novel procedure to quantify anatomical plausibility, i.e.,\nhow well the synthetic MRIs capture macrostructural properties of brain\nregions, and how accurately they encode the effects of age and sex. Results\nindicate that more than half of the brain regions in our synthetic MRIs are\nanatomically accurate, i.e., with a small effect size between real and\nsynthetic MRIs. Moreover, the anatomical plausibility varies across cortical\nregions according to their geometric complexity. As is, our synthetic MRIs can\nsignificantly improve the training of a Convolutional Neural Network to\nidentify accelerated aging effects in an independent study. These results\nhighlight the opportunities of using generative AI to aid neuroimaging research\nand point to areas for further improvement.",
+    "pdf_url": "http://arxiv.org/pdf/2310.04630v1",
+    "published": "2023-10-07"
+  },
+  "2411.06513v1": {
+    "title": "PRISM: Privacy-preserving Inter-Site MRI Harmonization via Disentangled Representation Learning",
+    "authors": [
+      "Sarang Galada",
+      "Tanurima Halder",
+      "Kunal Deo",
+      "Ram P Krish",
+      "Kshitij Jadhav"
+    ],
+    "summary": "Multi-site MRI studies often suffer from site-specific variations arising\nfrom differences in methodology, hardware, and acquisition protocols, thereby\ncompromising accuracy and reliability in clinical AI/ML tasks. We present PRISM\n(Privacy-preserving Inter-Site MRI Harmonization), a novel Deep Learning\nframework for harmonizing structural brain MRI across multiple sites while\npreserving data privacy. PRISM employs a dual-branch autoencoder with\ncontrastive learning and variational inference to disentangle anatomical\nfeatures from style and site-specific variations, enabling unpaired image\ntranslation without traveling subjects or multiple MRI modalities. Our modular\ndesign allows harmonization to any target site and seamless integration of new\nsites without the need for retraining or fine-tuning. Using multi-site\nstructural MRI data, we demonstrate PRISM's effectiveness in downstream tasks\nsuch as brain tissue segmentation and validate its harmonization performance\nthrough multiple experiments. Our framework addresses key challenges in medical\nAI/ML, including data privacy, distribution shifts, model generalizability and\ninterpretability. Code is available at https://github.com/saranggalada/PRISM",
+    "pdf_url": "http://arxiv.org/pdf/2411.06513v1",
+    "published": "2024-11-10"
+  },
+  "2206.11233v3": {
+    "title": "Automatic autism spectrum disorder detection using artificial intelligence methods with MRI neuroimaging: A review",
+    "authors": [
+      "Parisa Moridian",
+      "Navid Ghassemi",
+      "Mahboobeh Jafari",
+      "Salam Salloum-Asfar",
+      "Delaram Sadeghi",
+      "Marjane Khodatars",
+      "Afshin Shoeibi",
+      "Abbas Khosravi",
+      "Sai Ho Ling",
+      "Abdulhamit Subasi",
+      "Roohallah Alizadehsani",
+      "Juan M. Gorriz",
+      "Sara A Abdulla",
+      "U. Rajendra Acharya"
+    ],
+    "summary": "Autism spectrum disorder (ASD) is a brain condition characterized by diverse\nsigns and symptoms that appear in early childhood. ASD is also associated with\ncommunication deficits and repetitive behavior in affected individuals. Various\nASD detection methods have been developed, including neuroimaging modalities\nand psychological tests. Among these methods, magnetic resonance imaging (MRI)\nimaging modalities are of paramount importance to physicians. Clinicians rely\non MRI modalities to diagnose ASD accurately. The MRI modalities are\nnon-invasive methods that include functional (fMRI) and structural (sMRI)\nneuroimaging methods. However, diagnosing ASD with fMRI and sMRI for\nspecialists is often laborious and time-consuming; therefore, several\ncomputer-aided design systems (CADS) based on artificial intelligence (AI) have\nbeen developed to assist specialist physicians. Conventional machine learning\n(ML) and deep learning (DL) are the most popular schemes of AI used for\ndiagnosing ASD. This study aims to review the automated detection of ASD using\nAI. We review several CADS that have been developed using ML techniques for the\nautomated diagnosis of ASD using MRI modalities. There has been very limited\nwork on the use of DL techniques to develop automated diagnostic models for\nASD. A summary of the studies developed using DL is provided in the\nSupplementary Appendix. Then, the challenges encountered during the automated\ndiagnosis of ASD using MRI and AI techniques are described in detail.\nAdditionally, a graphical comparison of studies using ML and DL to diagnose ASD\nautomatically is discussed. We suggest future approaches to detecting ASDs\nusing AI techniques and MRI neuroimaging.",
+    "pdf_url": "http://arxiv.org/pdf/2206.11233v3",
+    "published": "2022-06-20"
+  }
+}

@@ -2,18 +2,45 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from mcp import ClientSession, StdioServerParameters, types
 from mcp.client.stdio import stdio_client
-from typing import List
+from typing import List, Dict
 import asyncio
 import nest_asyncio
 import json
 import os
+from dataclasses import dataclass, field
+from datetime import datetime
 
 nest_asyncio.apply()
 
 # Load environment variables from .env file
 load_dotenv()
 
-class MCP_ChatBot:
+@dataclass
+class ConversationContext:
+    messages: List[Dict] = field(default_factory=list)
+    last_papers: List[Dict] = field(default_factory=list)
+    last_query: str = ""
+    
+    def add_message(self, role: str, content: str, **kwargs):
+        message = {
+            'role': role,
+            'content': content,
+            'timestamp': datetime.now().isoformat(),
+            **kwargs
+        }
+        self.messages.append(message)
+        
+    def set_last_papers(self, papers: List[Dict]):
+        """Set the last papers list directly"""
+        self.last_papers = papers if papers else []
+            
+    def get_last_papers(self) -> List[Dict]:
+        return self.last_papers
+    
+    def get_recent_context(self, limit: int = 10) -> List[Dict]:
+        return self.messages[-limit:]
+
+class Rastuc_Corp:
 
     def __init__(self):
         # Initialize session and client objects
@@ -21,9 +48,33 @@ class MCP_ChatBot:
         # Initialize OpenAI client - API key will be loaded from OPENAI_API_KEY env var
         self.openai = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
         self.available_tools: List[dict] = []
+        self.context = ConversationContext()
 
     async def process_query(self, query):
-        messages = [{'role':'user', 'content':query}]
+        # Add user query to context
+        self.context.add_message('user', query)
+        self.context.last_query = query
+        
+        # Get recent conversation context
+        messages = self.context.get_recent_context()
+        
+        # If this is a follow-up about papers, add the last papers to the context
+        if any(word in query.lower() for word in ['last', 'previous', 'those', 'these', 'paper', 'number']):
+            # Get last papers
+            try:
+                result = await self.session.call_tool('get_last_papers')
+                # Convert TextContent to native Python type
+                papers = json.loads(str(result.content)) if result.content else []
+                self.context.set_last_papers(papers)
+                if self.context.last_papers:
+                    # Add papers context
+                    messages.append({
+                        'role': 'system',
+                        'content': f"Last searched papers: {json.dumps(self.context.last_papers, indent=2)}"
+                    })
+            except Exception as e:
+                print(f"Error getting last papers: {e}")
+        
         response = self.openai.chat.completions.create(
             model='gpt-4o',  # OpenAI GPT-4o model
             messages=messages,
@@ -37,14 +88,15 @@ class MCP_ChatBot:
             
             if message.content:
                 print(message.content)
+                self.context.add_message('assistant', message.content)
                 
             if message.tool_calls:
                 # Add assistant message with tool calls
-                messages.append({
-                    'role': 'assistant',
-                    'content': message.content,
-                    'tool_calls': message.tool_calls
-                })
+                self.context.add_message(
+                    'assistant',
+                    message.content,
+                    tool_calls=message.tool_calls
+                )
                 
                 # Process each tool call
                 for tool_call in message.tool_calls:
@@ -57,17 +109,30 @@ class MCP_ChatBot:
                     # Call the MCP tool
                     result = await self.session.call_tool(tool_name, arguments=tool_args)
                     
-                    # Add tool result message
-                    messages.append({
-                        "role": "tool",
-                        "tool_call_id": tool_id,
-                        "content": str(result.content)
-                    })
+                    # Convert TextContent to string for context
+                    result_content = str(result.content)
+                    
+                    # Add tool result to context
+                    self.context.add_message(
+                        'tool',
+                        result_content,
+                        tool_call_id=tool_id
+                    )
+                    
+                    # Update last papers if search was performed
+                    if tool_name == 'search_papers':
+                        try:
+                            papers_result = await self.session.call_tool('get_last_papers')
+                            # Convert TextContent to native Python type
+                            papers = json.loads(str(papers_result.content)) if papers_result.content else []
+                            self.context.set_last_papers(papers)
+                        except Exception as e:
+                            print(f"Error updating last papers: {e}")
                 
                 # Get next response from OpenAI
                 response = self.openai.chat.completions.create(
                     model='gpt-4o',
-                    messages=messages,
+                    messages=self.context.get_recent_context(),
                     tools=self.available_tools,
                     max_tokens=2024
                 )
@@ -75,16 +140,14 @@ class MCP_ChatBot:
                 # No tool calls, conversation is complete
                 process_query = False
 
-    
-    
     async def chat_loop(self):
         """Run an interactive chat loop"""
-        print("\nMCP Chatbot Started!")
-        print("Type your queries or 'quit' to exit.")
+        print("\nRastuc Corp started in MCP! \n An AI agent to get you scientfic papers from arXiv.org, and extract the information you need")
+        print("Type your research topic or 'quit' to exit.")
         
         while True:
             try:
-                query = input("\nQuery: ").strip()
+                query = input("\nRastuc Corp:) ").strip()
         
                 if query.lower() == 'quit':
                     break
@@ -128,7 +191,7 @@ class MCP_ChatBot:
 
 
 async def main():
-    chatbot = MCP_ChatBot()
+    chatbot = Rastuc_Corp()
     await chatbot.connect_to_server_and_run()
   
 

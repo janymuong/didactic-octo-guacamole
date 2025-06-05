@@ -1,0 +1,75 @@
+{
+  "2407.01318v1": {
+    "id": "2407.01318v1",
+    "title": "Deep Dive into MRI: Exploring Deep Learning Applications in 0.55T and 7T MRI",
+    "authors": [
+      "Ana Carolina Alves",
+      "Andr\u00e9 Ferreira",
+      "Behrus Puladi",
+      "Jan Egger",
+      "Victor Alves"
+    ],
+    "summary": "The development of magnetic resonance imaging (MRI) for medical imaging has\nprovided a leap forward in diagnosis, providing a safe, non-invasive\nalternative to techniques involving ionising radiation exposure for diagnostic\npurposes. It was described by Block and Purcel in 1946, and it was not until\n1980 that the first clinical application of MRI became available. Since that\ntime the MRI has gone through many advances and has altered the way diagnosing\nprocedures are performed. Due to its ability to improve constantly, MRI has\nbecome a commonly used practice among several specialisations in medicine.\nParticularly starting 0.55T and 7T MRI technologies have pointed out enhanced\npreservation of image detail and advanced tissue characterisation. This review\nexamines the integration of deep learning (DL) techniques into these MRI\nmodalities, disseminating and exploring the study applications. It highlights\nhow DL contributes to 0.55T and 7T MRI data, showcasing the potential of DL in\nimproving and refining these technologies. The review ends with a brief\noverview of how MRI technology will evolve in the coming years.",
+    "pdf_url": "http://arxiv.org/pdf/2407.01318v1",
+    "published": "2024-07-01"
+  },
+  "2405.02109v1": {
+    "id": "2405.02109v1",
+    "title": "Three-Dimensional Amyloid-Beta PET Synthesis from Structural MRI with Conditional Generative Adversarial Networks",
+    "authors": [
+      "Fernando Vega",
+      "Abdoljalil Addeh",
+      "M. Ethan MacDonald"
+    ],
+    "summary": "Motivation: Alzheimer's Disease hallmarks include amyloid-beta deposits and\nbrain atrophy, detectable via PET and MRI scans, respectively. PET is\nexpensive, invasive and exposes patients to ionizing radiation. MRI is cheaper,\nnon-invasive, and free from ionizing radiation but limited to measuring brain\natrophy.\n  Goal: To develop an 3D image translation model that synthesizes amyloid-beta\nPET images from T1-weighted MRI, exploiting the known relationship between\namyloid-beta and brain atrophy.\n  Approach: The model was trained on 616 PET/MRI pairs and validated with 264\npairs.\n  Results: The model synthesized amyloid-beta PET images from T1-weighted MRI\nwith high-degree of similarity showing high SSIM and PSNR metrics\n(SSIM>0.95&PSNR=28).\n  Impact: Our model proves the feasibility of synthesizing amyloid-beta PET\nimages from structural MRI ones, significantly enhancing accessibility for\nlarge-cohort studies and early dementia detection, while also reducing cost,\ninvasiveness, and radiation exposure.",
+    "pdf_url": "http://arxiv.org/pdf/2405.02109v1",
+    "published": "2024-05-03"
+  },
+  "2108.04912v1": {
+    "id": "2108.04912v1",
+    "title": "Quantitative Parametric Mapping of Tissues Properties from Standard Magnetic Resonance Imaging Enabled by Deep Learning",
+    "authors": [
+      "Yan Wu",
+      "Yajun Ma",
+      "Youngwook Kee",
+      "Nataliya Kovalchuk",
+      "Dante Capaldi",
+      "Hongyi Ren",
+      "Steven Hancock",
+      "Eric Chang",
+      "Marcus Alley",
+      "John Pauly",
+      "Jiang Du",
+      "Shreyas Vasanawala",
+      "Lei Xing"
+    ],
+    "summary": "Magnetic resonance imaging (MRI) offers superior soft tissue contrast and is\nwidely used in biomedicine. However, conventional MRI is not quantitative,\nwhich presents a bottleneck in image analysis and digital healthcare.\nTypically, additional scans are required to disentangle the effect of multiple\nparameters of MR and extract quantitative tissue properties. Here we\ninvestigate a data-driven strategy Q^2 MRI (Qualitative and Quantitative MRI)\nto derive quantitative parametric maps from standard MR images without\nadditional data acquisition. By taking advantage of the interdependency between\nvarious MRI parametric maps buried in training data, the proposed deep learning\nstrategy enables accurate prediction of tissue relaxation properties as well as\nother biophysical and biochemical characteristics from a single or a few images\nwith conventional T_1/T_2 weighting. Superior performance has been achieved in\nquantitative MR imaging of the knee and liver. Q^2 MRI promises to provide a\npowerful tool for a variety of biomedical applications and facilitate the next\ngeneration of digital medicine.",
+    "pdf_url": "http://arxiv.org/pdf/2108.04912v1",
+    "published": "2021-08-10"
+  },
+  "1511.02949v2": {
+    "id": "1511.02949v2",
+    "title": "Transmission of travelling-wave with a simple waveguide for rodents MRI at 9.4 T",
+    "authors": [
+      "Fabian Vazquez",
+      "Oscar Marrufo",
+      "Rodrigo Martin",
+      "Sergio Solis",
+      "Alfredo O. Rodriguez"
+    ],
+    "summary": "Standard coils can cause inhomogeneities due to the standing wave patterns at\nultra high field MRI. This B1 inhomogeneity can be overcome using the\ntravelling-wave MRI (twMRI) approach. The ma- jority of twMRI research has been\ndone with clinical MRI scanners at 7T or above. More recently, this concept has\nbeen also used with animal MRI systems, using circular-cross section waveguides\nand dielectric materials for both type of scanners. We have demonstrated that\ntwMRI can be used at 3 T with clinical systems and a parallel-plate waveguide.\nHere, we investigated the use of a parallel- plate waveguide and a RF circular\ncoil to generate rat images with an animal MRI at 9.4 T.",
+    "pdf_url": "http://arxiv.org/pdf/1511.02949v2",
+    "published": "2015-11-10"
+  },
+  "1510.04875v1": {
+    "id": "1510.04875v1",
+    "title": "PET-MRI: a review of challenges and solutions in the development of integrated multimodality imaging",
+    "authors": [
+      "Stefaan Vandenberghe",
+      "Paul Marsden"
+    ],
+    "summary": "The integration of positron emission tomography (PET) and magnetic resonance\nimaging (MRI) has been an ongoing research topic for the last 20 years. This\npaper gives an overview of the different developments and the technical\nproblems associated with combining PET and MRI in one system. After explaining\nthe different detector concepts for integrating PET-MRI and minimising\ninterference the limitations and advantages of different solutions for the\ndetector and system are described for preclinical and clinical imaging systems.\nThe different integrated PET-MRI systems are described in detail. Besides\ndetector concepts and system integration the challenges and proposed solutions\nfor attenuation correction and the potential for motion correction and\nresolution recovery are also discussed in this topical review.",
+    "pdf_url": "http://arxiv.org/pdf/1510.04875v1",
+    "published": "2015-10-16"
+  }
+}

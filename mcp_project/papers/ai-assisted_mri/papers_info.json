@@ -1,0 +1,100 @@
+{
+  "2312.00381v1": {
+    "id": "2312.00381v1",
+    "title": "Lung Imaging with UTE MRI",
+    "authors": [
+      "Peder E. Z. Larson"
+    ],
+    "summary": "Cross-sectional imaging of the lungs, or pulmonary imaging, has proven to be\nan incredibly valuable tool in a wide range of pulmonary diseases. The vast\nmajority of lung imaging is done with CT, as it is fast enough to freeze\nrespiratory motion and provides high spatial resolution to visualize fine\nstructure of the lungs.\n  MRI of the lungs is inherently challenging due to the presence of large local\nmagnetic field gradients, relatively low proton density, and motion. The\nbenefits of performing MRI for lung imaging include no ionizing radiation,\nopportunities for multiple contrasts, and integration with other MRI also\noffers the opportunity to obtain multiple tissue contrasts.\n  The most common lung MRI techniques are structural T1-weighted scans, but\nalso emerging are functional contrasts such as ventilation and perfusion, as\nwell as other MRI contrast mechanisms including T2-weighting and\ndiffusion-weighting. Finally, lung MRI can be combined with other MRI scanning\ntechniques, including cardiac MRI, abdominal MRI, whole-body MRI, and PET/MRI,\nfor increasing examination efficiency by only requiring a single scan session\nand providing more comprehensive assessment that includes evaluation of the\npulmonary system.\n  This article covers pulse sequences, motion management methods, image\nreconstruction, and contrast mechanisms of UTE MRI (e.g. T1-weighting,\nventilation mapping) for imaging of the lung.",
+    "pdf_url": "http://arxiv.org/pdf/2312.00381v1",
+    "published": "2023-12-01"
+  },
+  "1805.02165v1": {
+    "id": "1805.02165v1",
+    "title": "Joint CS-MRI Reconstruction and Segmentation with a Unified Deep Network",
+    "authors": [
+      "Liyan Sun",
+      "Zhiwen Fan",
+      "Yue Huang",
+      "Xinghao Ding",
+      "John Paisley"
+    ],
+    "summary": "The need for fast acquisition and automatic analysis of MRI data is growing\nin the age of big data. Although compressed sensing magnetic resonance imaging\n(CS-MRI) has been studied to accelerate MRI by reducing k-space measurements,\nin current CS-MRI techniques MRI applications such as segmentation are\noverlooked when doing image reconstruction. In this paper, we test the utility\nof CS-MRI methods in automatic segmentation models and propose a unified deep\nneural network architecture called SegNetMRI which we apply to the combined\nCS-MRI reconstruction and segmentation problem. SegNetMRI is built upon a MRI\nreconstruction network with multiple cascaded blocks each containing an\nencoder-decoder unit and a data fidelity unit, and MRI segmentation networks\nhaving the same encoder-decoder structure. The two subnetworks are pre-trained\nand fine-tuned with shared reconstruction encoders. The outputs are merged into\nthe final segmentation. Our experiments show that SegNetMRI can improve both\nthe reconstruction and segmentation performance when using compressive\nmeasurements.",
+    "pdf_url": "http://arxiv.org/pdf/1805.02165v1",
+    "published": "2018-05-06"
+  },
+  "2006.12915v1": {
+    "id": "2006.12915v1",
+    "title": "Deep Attentive Wasserstein Generative Adversarial Networks for MRI Reconstruction with Recurrent Context-Awareness",
+    "authors": [
+      "Yifeng Guo",
+      "Chengjia Wang",
+      "Heye Zhang",
+      "Guang Yang"
+    ],
+    "summary": "The performance of traditional compressive sensing-based MRI (CS-MRI)\nreconstruction is affected by its slow iterative procedure and noise-induced\nartefacts. Although many deep learning-based CS-MRI methods have been proposed\nto mitigate the problems of traditional methods, they have not been able to\nachieve more robust results at higher acceleration factors. Most of the deep\nlearning-based CS-MRI methods still can not fully mine the information from the\nk-space, which leads to unsatisfactory results in the MRI reconstruction. In\nthis study, we propose a new deep learning-based CS-MRI reconstruction method\nto fully utilise the relationship among sequential MRI slices by coupling\nWasserstein Generative Adversarial Networks (WGAN) with Recurrent Neural\nNetworks. Further development of an attentive unit enables our model to\nreconstruct more accurate anatomical structures for the MRI data. By\nexperimenting on different MRI datasets, we have demonstrated that our method\ncan not only achieve better results compared to the state-of-the-arts but can\nalso effectively reduce residual noise generated during the reconstruction\nprocess.",
+    "pdf_url": "http://arxiv.org/pdf/2006.12915v1",
+    "published": "2020-06-23"
+  },
+  "2302.03018v1": {
+    "id": "2302.03018v1",
+    "title": "DDM$^2$: Self-Supervised Diffusion MRI Denoising with Generative Diffusion Models",
+    "authors": [
+      "Tiange Xiang",
+      "Mahmut Yurt",
+      "Ali B Syed",
+      "Kawin Setsompop",
+      "Akshay Chaudhari"
+    ],
+    "summary": "Magnetic resonance imaging (MRI) is a common and life-saving medical imaging\ntechnique. However, acquiring high signal-to-noise ratio MRI scans requires\nlong scan times, resulting in increased costs and patient discomfort, and\ndecreased throughput. Thus, there is great interest in denoising MRI scans,\nespecially for the subtype of diffusion MRI scans that are severely\nSNR-limited. While most prior MRI denoising methods are supervised in nature,\nacquiring supervised training datasets for the multitude of anatomies, MRI\nscanners, and scan parameters proves impractical. Here, we propose Denoising\nDiffusion Models for Denoising Diffusion MRI (DDM$^2$), a self-supervised\ndenoising method for MRI denoising using diffusion denoising generative models.\nOur three-stage framework integrates statistic-based denoising theory into\ndiffusion models and performs denoising through conditional generation. During\ninference, we represent input noisy measurements as a sample from an\nintermediate posterior distribution within the diffusion Markov chain. We\nconduct experiments on 4 real-world in-vivo diffusion MRI datasets and show\nthat our DDM$^2$ demonstrates superior denoising performances ascertained with\nclinically-relevant visual qualitative and quantitative metrics.",
+    "pdf_url": "http://arxiv.org/pdf/2302.03018v1",
+    "published": "2023-02-06"
+  },
+  "2407.01318v1": {
+    "id": "2407.01318v1",
+    "title": "Deep Dive into MRI: Exploring Deep Learning Applications in 0.55T and 7T MRI",
+    "authors": [
+      "Ana Carolina Alves",
+      "Andr\u00e9 Ferreira",
+      "Behrus Puladi",
+      "Jan Egger",
+      "Victor Alves"
+    ],
+    "summary": "The development of magnetic resonance imaging (MRI) for medical imaging has\nprovided a leap forward in diagnosis, providing a safe, non-invasive\nalternative to techniques involving ionising radiation exposure for diagnostic\npurposes. It was described by Block and Purcel in 1946, and it was not until\n1980 that the first clinical application of MRI became available. Since that\ntime the MRI has gone through many advances and has altered the way diagnosing\nprocedures are performed. Due to its ability to improve constantly, MRI has\nbecome a commonly used practice among several specialisations in medicine.\nParticularly starting 0.55T and 7T MRI technologies have pointed out enhanced\npreservation of image detail and advanced tissue characterisation. This review\nexamines the integration of deep learning (DL) techniques into these MRI\nmodalities, disseminating and exploring the study applications. It highlights\nhow DL contributes to 0.55T and 7T MRI data, showcasing the potential of DL in\nimproving and refining these technologies. The review ends with a brief\noverview of how MRI technology will evolve in the coming years.",
+    "pdf_url": "http://arxiv.org/pdf/2407.01318v1",
+    "published": "2024-07-01"
+  },
+  "2403.18139v1": {
+    "id": "2403.18139v1",
+    "title": "Pseudo-MRI-Guided PET Image Reconstruction Method Based on a Diffusion Probabilistic Model",
+    "authors": [
+      "Weijie Gan",
+      "Huidong Xie",
+      "Carl von Gall",
+      "G\u00fcnther Platsch",
+      "Michael T. Jurkiewicz",
+      "Andrea Andrade",
+      "Udunna C. Anazodo",
+      "Ulugbek S. Kamilov",
+      "Hongyu An",
+      "Jorge Cabello"
+    ],
+    "summary": "Anatomically guided PET reconstruction using MRI information has been shown\nto have the potential to improve PET image quality. However, these improvements\nare limited to PET scans with paired MRI information. In this work we employed\na diffusion probabilistic model (DPM) to infer T1-weighted-MRI (deep-MRI)\nimages from FDG-PET brain images. We then use the DPM-generated T1w-MRI to\nguide the PET reconstruction. The model was trained with brain FDG scans, and\ntested in datasets containing multiple levels of counts. Deep-MRI images\nappeared somewhat degraded than the acquired MRI images. Regarding PET image\nquality, volume of interest analysis in different brain regions showed that\nboth PET reconstructed images using the acquired and the deep-MRI images\nimproved image quality compared to OSEM. Same conclusions were found analysing\nthe decimated datasets. A subjective evaluation performed by two physicians\nconfirmed that OSEM scored consistently worse than the MRI-guided PET images\nand no significant differences were observed between the MRI-guided PET images.\nThis proof of concept shows that it is possible to infer DPM-based MRI imagery\nto guide the PET reconstruction, enabling the possibility of changing\nreconstruction parameters such as the strength of the prior on anatomically\nguided PET reconstruction in the absence of MRI.",
+    "pdf_url": "http://arxiv.org/pdf/2403.18139v1",
+    "published": "2024-03-26"
+  },
+  "2405.00241v1": {
+    "id": "2405.00241v1",
+    "title": "Fast MRI Reconstruction Using Deep Learning-based Compressed Sensing: A Systematic Review",
+    "authors": [
+      "Mojtaba Safari",
+      "Zach Eidex",
+      "Chih-Wei Chang",
+      "Richard L. J. Qiu",
+      "Xiaofeng Yang"
+    ],
+    "summary": "Magnetic resonance imaging (MRI) has revolutionized medical imaging,\nproviding a non-invasive and highly detailed look into the human body. However,\nthe long acquisition times of MRI present challenges, causing patient\ndiscomfort, motion artifacts, and limiting real-time applications. To address\nthese challenges, researchers are exploring various techniques to reduce\nacquisition time and improve the overall efficiency of MRI. One such technique\nis compressed sensing (CS), which reduces data acquisition by leveraging image\nsparsity in transformed spaces. In recent years, deep learning (DL) has been\nintegrated with CS-MRI, leading to a new framework that has seen remarkable\ngrowth. DL-based CS-MRI approaches are proving to be highly effective in\naccelerating MR imaging without compromising image quality. This review\ncomprehensively examines DL-based CS-MRI techniques, focusing on their role in\nincreasing MR imaging speed. We provide a detailed analysis of each category of\nDL-based CS-MRI including end-to-end, unroll optimization, self-supervised, and\nfederated learning. Our systematic review highlights significant contributions\nand underscores the exciting potential of DL in CS-MRI. Additionally, our\nsystematic review efficiently summarizes key results and trends in DL-based\nCS-MRI including quantitative metrics, the dataset used, acceleration factors,\nand the progress of and research interest in DL techniques over time. Finally,\nwe discuss potential future directions and the importance of DL-based CS-MRI in\nthe advancement of medical imaging. To facilitate further research in this\narea, we provide a GitHub repository that includes up-to-date DL-based CS-MRI\npublications and publicly available datasets -\nhttps://github.com/mosaf/Awesome-DL-based-CS-MRI.",
+    "pdf_url": "http://arxiv.org/pdf/2405.00241v1",
+    "published": "2024-04-30"
+  }
+}

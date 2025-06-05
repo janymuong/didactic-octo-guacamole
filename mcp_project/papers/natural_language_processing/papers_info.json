@@ -1,0 +1,51 @@
+{
+  "1608.04434v1": {
+    "title": "Natural Language Processing using Hadoop and KOSHIK",
+    "authors": [
+      "Emre Erturk",
+      "Hong Shi"
+    ],
+    "summary": "Natural language processing, as a data analytics related technology, is used\nwidely in many research areas such as artificial intelligence, human language\nprocessing, and translation. At present, due to explosive growth of data, there\nare many challenges for natural language processing. Hadoop is one of the\nplatforms that can process the large amount of data required for natural\nlanguage processing. KOSHIK is one of the natural language processing\narchitectures, and utilizes Hadoop and contains language processing components\nsuch as Stanford CoreNLP and OpenNLP. This study describes how to build a\nKOSHIK platform with the relevant tools, and provides the steps to analyze wiki\ndata. Finally, it evaluates and discusses the advantages and disadvantages of\nthe KOSHIK architecture, and gives recommendations on improving the processing\nperformance.",
+    "pdf_url": "http://arxiv.org/pdf/1608.04434v1",
+    "published": "2016-08-15"
+  },
+  "2503.02435v1": {
+    "title": "NLI4DB: A Systematic Review of Natural Language Interfaces for Databases",
+    "authors": [
+      "Mengyi Liu",
+      "Jianqiu Xu"
+    ],
+    "summary": "As the demand for querying databases in all areas of life continues to grow,\nresearchers have devoted significant attention to the natural language\ninterface for databases (NLIDB). This paper presents a comprehensive survey of\nrecently proposed NLIDBs. We begin with a brief introduction to natural\nlanguage processing techniques, executable database languages and the\nintermediate representation between natural language and executable language,\nand then provide an overview of the translation process from natural language\nto executable database language. The translation process is divided into three\nstages: (i) natural language preprocessing, (ii) natural language\nunderstanding, and (iii) natural language translation. Traditional and\ndata-driven methods are utilized in the preprocessing stage. Traditional\napproaches rely on predefined rules and grammars, and involve techniques such\nas regular expressions, dependency parsing and named entity recognition.\nData-driven approaches depend on large-scale data and machine learning models,\nusing techniques including word embedding and pattern linking. Natural language\nunderstanding methods are classified into three categories: (i) rule-based,\n(ii) machine learning-based, and (iii) hybrid. We then describe a general\nconstruction process for executable languages over relational and\nspatio-temporal databases. Subsequently, common benchmarks and evaluation\nmetrics for transforming natural language into executable language are\npresented, and methods for generating new benchmarks are explored. Finally, we\nsummarize the classification, development, and enhancement of NLIDB systems,\nand discuss deep language understanding and database interaction techniques\nrelated to NLIDB, including (i) using LLM for Text2SQL tasks, (ii) generating\nnatural language interpretations from SQL, and (iii) transforming speech\nqueries into SQL.",
+    "pdf_url": "http://arxiv.org/pdf/2503.02435v1",
+    "published": "2025-03-04"
+  },
+  "2202.07138v2": {
+    "title": "Integrating AI Planning with Natural Language Processing: A Combination of Explicit and Tacit Knowledge",
+    "authors": [
+      "Kebing Jin",
+      "Hankz Hankui Zhuo"
+    ],
+    "summary": "Natural language processing (NLP) aims at investigating the interactions\nbetween agents and humans, processing and analyzing large amounts of natural\nlanguage data. Large-scale language models play an important role in current\nnatural language processing. However, the challenges of explainability and\ncomplexity come along with the developments of language models. One way is to\nintroduce logical relations and rules into natural language processing models,\nsuch as making use of Automated Planning. Automated planning (AI planning)\nfocuses on building symbolic domain models and synthesizing plans to transit\ninitial states to goals based on domain models. Recently, there have been\nplenty of works related to these two fields, which have the abilities to\ngenerate explicit knowledge, e.g., preconditions and effects of action models,\nand learn from tacit knowledge, e.g., neural models, respectively. Integrating\nAI planning and natural language processing effectively improves the\ncommunication between human and intelligent agents. This paper outlines the\ncommons and relations between AI planning and natural language processing,\nargues that each of them can effectively impact on the other one by five areas:\n(1) planning-based text understanding, (2) planning-based natural language\nprocessing, (3) planning-based explainability, (4) text-based human-robot\ninteraction, and (5) applications. We also explore some potential future issues\nbetween AI planning and natural language processing. To the best of our\nknowledge, this survey is the first work that addresses the deep connections\nbetween AI planning and Natural language processing.",
+    "pdf_url": "http://arxiv.org/pdf/2202.07138v2",
+    "published": "2022-02-15"
+  },
+  "1906.11608v2": {
+    "title": "Simple Natural Language Processing Tools for Danish",
+    "authors": [
+      "Leon Derczynski"
+    ],
+    "summary": "This technical note describes a set of baseline tools for automatic\nprocessing of Danish text. The tools are machine-learning based, using natural\nlanguage processing models trained over previously annotated documents. They\nare maintained at ITU Copenhagen and will always be freely available.",
+    "pdf_url": "http://arxiv.org/pdf/1906.11608v2",
+    "published": "2019-06-27"
+  },
+  "2503.16728v2": {
+    "title": "Natural Language Generation",
+    "authors": [
+      "Emiel van Miltenburg",
+      "Chenghua Lin"
+    ],
+    "summary": "This article provides a brief overview of the field of Natural Language\nGeneration. The term Natural Language Generation (NLG), in its broadest\ndefinition, refers to the study of systems that verbalize some form of\ninformation through natural language. That information could be stored in a\nlarge database or knowledge graph (in data-to-text applications), but NLG\nresearchers may also study summarisation (text-to-text) or image captioning\n(image-to-text), for example. As a subfield of Natural Language Processing, NLG\nis closely related to other sub-disciplines such as Machine Translation (MT)\nand Dialog Systems. Some NLG researchers exclude MT from their definition of\nthe field, since there is no content selection involved where the system has to\ndetermine what to say. Conversely, dialog systems do not typically fall under\nthe header of Natural Language Generation since NLG is just one component of\ndialog systems (the others being Natural Language Understanding and Dialog\nManagement). However, with the rise of Large Language Models (LLMs), different\nsubfields of Natural Language Processing have converged on similar\nmethodologies for the production of natural language and the evaluation of\nautomatically generated text.",
+    "pdf_url": "http://arxiv.org/pdf/2503.16728v2",
+    "published": "2025-03-20"
+  }
+}

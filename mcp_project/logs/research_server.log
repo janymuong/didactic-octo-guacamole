@@ -1,0 +1,73 @@
+2025-06-05 11:35:50,301 - INFO - Starting Rastuc Corp Research Server...
+2025-06-05 11:35:50,303 - INFO - Directory structure initialized
+2025-06-05 11:35:50,303 - INFO - Server initialized successfully
+2025-06-05 11:35:50,321 - INFO - Processing request of type ListToolsRequest
+2025-06-05 11:39:58,530 - INFO - Starting Rastuc Corp Research Server...
+2025-06-05 11:39:58,530 - INFO - Directory structure initialized
+2025-06-05 11:39:58,531 - INFO - Server initialized successfully
+2025-06-05 11:39:58,546 - INFO - Processing request of type ListToolsRequest
+2025-06-05 11:40:35,809 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:40:35,810 - INFO - Searching for papers on topic: 'AI assisted MRI' (max: 5)
+2025-06-05 11:40:35,811 - INFO - Directory structure initialized
+2025-06-05 11:40:35,812 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=AI+assisted+MRI&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-05 11:40:38,179 - INFO - Got first page: 100 of 74244 total results
+2025-06-05 11:40:38,183 - INFO - Search completed: 5 papers found, 5 new papers added
+2025-06-05 11:40:40,856 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:40:40,857 - INFO - Searching for paper: 2502.02351v1
+2025-06-05 11:40:40,858 - INFO - Directory structure initialized
+2025-06-05 11:40:40,860 - INFO - Paper 2502.02351v1 found in ai_assisted_mri
+2025-06-05 11:40:40,864 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:40:40,864 - INFO - Searching for paper: 2502.03482v1
+2025-06-05 11:40:40,865 - INFO - Directory structure initialized
+2025-06-05 11:40:40,866 - INFO - Paper 2502.03482v1 found in ai_assisted_mri
+2025-06-05 11:40:40,869 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:40:40,869 - INFO - Searching for paper: 2506.00474v1
+2025-06-05 11:40:40,870 - INFO - Directory structure initialized
+2025-06-05 11:40:40,871 - INFO - Paper 2506.00474v1 found in ai_assisted_mri
+2025-06-05 11:40:40,882 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:40:40,882 - INFO - Searching for paper: 2206.11233v3
+2025-06-05 11:40:40,883 - INFO - Directory structure initialized
+2025-06-05 11:40:40,884 - INFO - Paper 2206.11233v3 found in ai_assisted_mri
+2025-06-05 11:40:40,887 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:40:40,887 - INFO - Searching for paper: 2211.14500v1
+2025-06-05 11:40:40,888 - INFO - Directory structure initialized
+2025-06-05 11:40:40,889 - INFO - Paper 2211.14500v1 found in ai_assisted_mri
+2025-06-05 11:46:10,978 - INFO - Starting Rastuc Corp Research Server...
+2025-06-05 11:46:10,979 - INFO - Directory structure initialized
+2025-06-05 11:46:10,979 - INFO - Server initialized successfully
+2025-06-05 11:46:10,994 - INFO - Processing request of type ListToolsRequest
+2025-06-05 11:46:59,169 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:46:59,170 - INFO - Searching for papers on topic: 'AI assisted MRI' (max: 7)
+2025-06-05 11:46:59,171 - INFO - Directory structure initialized
+2025-06-05 11:46:59,174 - INFO - Loaded existing data from papers\ai_assisted_mri\papers_info.json
+2025-06-05 11:46:59,175 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=AI+assisted+MRI&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-06-05 11:47:03,272 - INFO - Got first page: 100 of 74244 total results
+2025-06-05 11:47:03,274 - INFO - Search completed: 7 papers found, 2 new papers added
+2025-06-05 11:47:05,458 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:47:05,458 - INFO - Searching for paper: 2502.02351v1
+2025-06-05 11:47:05,459 - INFO - Directory structure initialized
+2025-06-05 11:47:05,460 - INFO - Paper 2502.02351v1 found in ai_assisted_mri
+2025-06-05 11:47:05,463 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:47:05,464 - INFO - Searching for paper: 2502.03482v1
+2025-06-05 11:47:05,464 - INFO - Directory structure initialized
+2025-06-05 11:47:05,465 - INFO - Paper 2502.03482v1 found in ai_assisted_mri
+2025-06-05 11:47:05,468 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:47:05,469 - INFO - Searching for paper: 2506.00474v1
+2025-06-05 11:47:05,469 - INFO - Directory structure initialized
+2025-06-05 11:47:05,470 - INFO - Paper 2506.00474v1 found in ai_assisted_mri
+2025-06-05 11:47:05,473 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:47:05,473 - INFO - Searching for paper: 2206.11233v3
+2025-06-05 11:47:05,474 - INFO - Directory structure initialized
+2025-06-05 11:47:05,475 - INFO - Paper 2206.11233v3 found in ai_assisted_mri
+2025-06-05 11:47:05,478 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:47:05,478 - INFO - Searching for paper: 2211.14500v1
+2025-06-05 11:47:05,478 - INFO - Directory structure initialized
+2025-06-05 11:47:05,479 - INFO - Paper 2211.14500v1 found in ai_assisted_mri
+2025-06-05 11:47:05,481 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:47:05,482 - INFO - Searching for paper: 2405.16942v1
+2025-06-05 11:47:05,482 - INFO - Directory structure initialized
+2025-06-05 11:47:05,483 - INFO - Paper 2405.16942v1 found in ai_assisted_mri
+2025-06-05 11:47:05,486 - INFO - Processing request of type CallToolRequest
+2025-06-05 11:47:05,486 - INFO - Searching for paper: 2412.01829v1
+2025-06-05 11:47:05,487 - INFO - Directory structure initialized
+2025-06-05 11:47:05,488 - INFO - Paper 2412.01829v1 found in ai_assisted_mri

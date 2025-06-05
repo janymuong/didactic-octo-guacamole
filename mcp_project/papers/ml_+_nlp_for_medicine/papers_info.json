@@ -1,0 +1,52 @@
+{
+  "2408.13284v1": {
+    "title": "From Radiologist Report to Image Label: Assessing Latent Dirichlet Allocation in Training Neural Networks for Orthopedic Radiograph Classification",
+    "authors": [
+      "Jakub Olczak",
+      "Max Gordon"
+    ],
+    "summary": "Background: Radiography (X-rays) is the dominant modality in orthopedics, and\nimproving the interpretation of radiographs is clinically relevant. Machine\nlearning (ML) has revolutionized data analysis and has been applied to\nmedicine, with some success, in the form of natural language processing (NLP)\nand artificial neural networks (ANN). Latent Dirichlet allocation (LDA) is an\nNLP method that automatically categorizes documents into topics. Successfully\napplying ML to orthopedic radiography could enable the creation of\ncomputer-aided decision systems for use in the clinic. We studied how an\nautomated ML pipeline could classify orthopedic trauma radiographs from\nradiologist reports. Methods: Wrist and ankle radiographs from Danderyd\nHospital in Sweden taken between 2002 and 2015, with radiologist reports. LDA\nwas used to create image labels for radiographs from the radiologist reports.\nRadiographs and labels were used to train an image recognition ANN. The ANN\noutcomes were manually reviewed to get an accurate estimate of the method's\nutility and accuracy. Results: Image Labels generated via LDA could\nsuccessfully train the ANN. The ANN reached an accuracy between 91% and 60%\ncompared to a gold standard, depending on the label. Conclusions: We found that\nLDA was unsuited to label orthopedic radiographs from reports with high\naccuracy. However, despite this, the ANN could learn to detect some features in\nradiographs with high accuracy. The study also illustrates how ML and ANN can\nbe applied to medical research.",
+    "pdf_url": "http://arxiv.org/pdf/2408.13284v1",
+    "published": "2024-08-22"
+  },
+  "2109.01211v1": {
+    "title": "Quantifying Reproducibility in NLP and ML",
+    "authors": [
+      "Anya Belz"
+    ],
+    "summary": "Reproducibility has become an intensely debated topic in NLP and ML over\nrecent years, but no commonly accepted way of assessing reproducibility, let\nalone quantifying it, has so far emerged. The assumption has been that wider\nscientific reproducibility terminology and definitions are not applicable to\nNLP/ML, with the result that many different terms and definitions have been\nproposed, some diametrically opposed. In this paper, we test this assumption,\nby taking the standard terminology and definitions from metrology and applying\nthem directly to NLP/ML. We find that we are able to straightforwardly derive a\npractical framework for assessing reproducibility which has the desirable\nproperty of yielding a quantified degree of reproducibility that is comparable\nacross different reproduction studies.",
+    "pdf_url": "http://arxiv.org/pdf/2109.01211v1",
+    "published": "2021-09-02"
+  },
+  "2311.06414v1": {
+    "title": "Knowledge Graphs are not Created Equal: Exploring the Properties and Structure of Real KGs",
+    "authors": [
+      "Nedelina Teneva",
+      "Estevam Hruschka"
+    ],
+    "summary": "Despite the recent popularity of knowledge graph (KG) related tasks and\nbenchmarks such as KG embeddings, link prediction, entity alignment and\nevaluation of the reasoning abilities of pretrained language models as KGs, the\nstructure and properties of real KGs are not well studied. In this paper, we\nperform a large scale comparative study of 29 real KG datasets from diverse\ndomains such as the natural sciences, medicine, and NLP to analyze their\nproperties and structural patterns. Based on our findings, we make several\nrecommendations regarding KG-based model development and evaluation. We believe\nthat the rich structural information contained in KGs can benefit the\ndevelopment of better KG models across fields and we hope this study will\ncontribute to breaking the existing data silos between different areas of\nresearch (e.g., ML, NLP, AI for sciences).",
+    "pdf_url": "http://arxiv.org/pdf/2311.06414v1",
+    "published": "2023-11-10"
+  },
+  "2101.10848v1": {
+    "title": "Spark NLP: Natural Language Understanding at Scale",
+    "authors": [
+      "Veysel Kocaman",
+      "David Talby"
+    ],
+    "summary": "Spark NLP is a Natural Language Processing (NLP) library built on top of\nApache Spark ML. It provides simple, performant and accurate NLP annotations\nfor machine learning pipelines that can scale easily in a distributed\nenvironment. Spark NLP comes with 1100 pre trained pipelines and models in more\nthan 192 languages. It supports nearly all the NLP tasks and modules that can\nbe used seamlessly in a cluster. Downloaded more than 2.7 million times and\nexperiencing nine times growth since January 2020, Spark NLP is used by 54% of\nhealthcare organizations as the worlds most widely used NLP library in the\nenterprise.",
+    "pdf_url": "http://arxiv.org/pdf/2101.10848v1",
+    "published": "2021-01-26"
+  },
+  "2107.10652v1": {
+    "title": "A Systematic Literature Review of Automated ICD Coding and Classification Systems using Discharge Summaries",
+    "authors": [
+      "Rajvir Kaur",
+      "Jeewani Anupama Ginige",
+      "Oliver Obst"
+    ],
+    "summary": "Codification of free-text clinical narratives have long been recognised to be\nbeneficial for secondary uses such as funding, insurance claim processing and\nresearch. The current scenario of assigning codes is a manual process which is\nvery expensive, time-consuming and error prone. In recent years, many\nresearchers have studied the use of Natural Language Processing (NLP), related\nMachine Learning (ML) and Deep Learning (DL) methods and techniques to resolve\nthe problem of manual coding of clinical narratives and to assist human coders\nto assign clinical codes more accurately and efficiently. This systematic\nliterature review provides a comprehensive overview of automated clinical\ncoding systems that utilises appropriate NLP, ML and DL methods and techniques\nto assign ICD codes to discharge summaries. We have followed the Preferred\nReporting Items for Systematic Reviews and Meta-Analyses(PRISMA) guidelines and\nconducted a comprehensive search of publications from January, 2010 to December\n2020 in four academic databases- PubMed, ScienceDirect, Association for\nComputing Machinery(ACM) Digital Library, and the Association for Computational\nLinguistics(ACL) Anthology. We reviewed 7,556 publications; 38 met the\ninclusion criteria. This review identified: datasets having discharge\nsummaries; NLP techniques along with some other data extraction processes,\ndifferent feature extraction and embedding techniques. To measure the\nperformance of classification methods, different evaluation metrics are used.\nLastly, future research directions are provided to scholars who are interested\nin automated ICD code assignment. Efforts are still required to improve ICD\ncode prediction accuracy, availability of large-scale de-identified clinical\ncorpora with the latest version of the classification system. This can be a\nplatform to guide and share knowledge with the less experienced coders and\nresearchers.",
+    "pdf_url": "http://arxiv.org/pdf/2107.10652v1",
+    "published": "2021-07-12"
+  }
+}

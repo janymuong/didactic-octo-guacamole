@@ -1,0 +1,186 @@
+{
+  "2502.02351v1": {
+    "title": "Exploring the Feasibility of AI-Assisted Spine MRI Protocol Optimization Using DICOM Image Metadata",
+    "authors": [
+      "Alice Vian",
+      "Diego Andre Eifer",
+      "Mauricio Anes",
+      "Guilherme Ribeiro Garcia",
+      "Mariana Recamonde-Mendoza"
+    ],
+    "summary": "Artificial intelligence (AI) is increasingly being utilized to optimize magnetic resonance imaging (MRI) protocols. Given that image details are critical for diagnostic accuracy, optimizing MRI acquisition protocols is essential for enhancing image quality. While medical physicists are responsible for this optimization, the variability in equipment usage and the wide range of MRI protocols in clinical settings pose significant challenges. This study aims to validate the application of AI in optimizing MRI protocols using dynamic data from clinical practice, specifically DICOM metadata. To achieve this, four MRI spine exam databases were created, with the target attribute being the binary classification of image quality (good or bad). Five AI models were trained to identify trends in acquisition parameters that influence image quality, grounded in MRI theory. These trends were analyzed using SHAP graphs. The models achieved F1 performance ranging from 77% to 93% for datasets containing 292 or more instances, with the observed trends aligning with MRI theory. The models effectively reflected the practical realities of clinical MRI settings, offering a valuable tool for medical physicists in quality control tasks. In conclusion, AI has demonstrated its potential to optimize MRI protocols, supporting medical physicists in improving image quality and enhancing the efficiency of quality control in clinical practice.",
+    "pdf_url": "http://arxiv.org/pdf/2502.02351v1",
+    "entry_id": "http://arxiv.org/abs/2502.02351v1",
+    "published": "2025-02-04",
+    "updated": "2025-02-04",
+    "categories": [
+      "cs.LG",
+      "I.2; J.3"
+    ],
+    "primary_category": "cs.LG",
+    "retrieved_at": "2025-06-05T11:40:38.179288"
+  },
+  "2502.03482v1": {
+    "title": "Can Domain Experts Rely on AI Appropriately? A Case Study on AI-Assisted Prostate Cancer MRI Diagnosis",
+    "authors": [
+      "Chacha Chen",
+      "Han Liu",
+      "Jiamin Yang",
+      "Benjamin M. Mervak",
+      "Bora Kalaycioglu",
+      "Grace Lee",
+      "Emre Cakmakli",
+      "Matteo Bonatti",
+      "Sridhar Pudu",
+      "Osman Kahraman",
+      "Gul Gizem Pamuk",
+      "Aytekin Oto",
+      "Aritrick Chatterjee",
+      "Chenhao Tan"
+    ],
+    "summary": "Despite the growing interest in human-AI decision making, experimental studies with domain experts remain rare, largely due to the complexity of working with domain experts and the challenges in setting up realistic experiments. In this work, we conduct an in-depth collaboration with radiologists in prostate cancer diagnosis based on MRI images. Building on existing tools for teaching prostate cancer diagnosis, we develop an interface and conduct two experiments to study how AI assistance and performance feedback shape the decision making of domain experts. In Study 1, clinicians were asked to provide an initial diagnosis (human), then view the AI's prediction, and subsequently finalize their decision (human-AI team). In Study 2 (after a memory wash-out period), the same participants first received aggregated performance statistics from Study 1, specifically their own performance, the AI's performance, and their human-AI team performance, and then directly viewed the AI's prediction before making their diagnosis (i.e., no independent initial diagnosis). These two workflows represent realistic ways that clinical AI tools might be used in practice, where the second study simulates a scenario where doctors can adjust their reliance and trust on AI based on prior performance feedback. Our findings show that, while human-AI teams consistently outperform humans alone, they still underperform the AI due to under-reliance, similar to prior studies with crowdworkers. Providing clinicians with performance feedback did not significantly improve the performance of human-AI teams, although showing AI decisions in advance nudges people to follow AI more. Meanwhile, we observe that the ensemble of human-AI teams can outperform AI alone, suggesting promising directions for human-AI collaboration.",
+    "pdf_url": "http://arxiv.org/pdf/2502.03482v1",
+    "entry_id": "http://arxiv.org/abs/2502.03482v1",
+    "published": "2025-02-03",
+    "updated": "2025-02-03",
+    "categories": [
+      "eess.IV",
+      "cs.AI",
+      "cs.CV",
+      "cs.CY",
+      "cs.HC",
+      "cs.LG"
+    ],
+    "primary_category": "eess.IV",
+    "retrieved_at": "2025-06-05T11:40:38.179288"
+  },
+  "2506.00474v1": {
+    "title": "A European Multi-Center Breast Cancer MRI Dataset",
+    "authors": [
+      "Gustav Müller-Franzes",
+      "Lorena Escudero Sánchez",
+      "Nicholas Payne",
+      "Alexandra Athanasiou",
+      "Michael Kalogeropoulos",
+      "Aitor Lopez",
+      "Alfredo Miguel Soro Busto",
+      "Julia Camps Herrero",
+      "Nika Rasoolzadeh",
+      "Tianyu Zhang",
+      "Ritse Mann",
+      "Debora Jutz",
+      "Maike Bode",
+      "Christiane Kuhl",
+      "Wouter Veldhuis",
+      "Oliver Lester Saldanha",
+      "JieFu Zhu",
+      "Jakob Nikolas Kather",
+      "Daniel Truhn",
+      "Fiona J. Gilbert"
+    ],
+    "summary": "Detecting breast cancer early is of the utmost importance to effectively treat the millions of women afflicted by breast cancer worldwide every year. Although mammography is the primary imaging modality for screening breast cancer, there is an increasing interest in adding magnetic resonance imaging (MRI) to screening programmes, particularly for women at high risk. Recent guidelines by the European Society of Breast Imaging (EUSOBI) recommended breast MRI as a supplemental screening tool for women with dense breast tissue. However, acquiring and reading MRI scans requires significantly more time from expert radiologists. This highlights the need to develop new automated methods to detect cancer accurately using MRI and Artificial Intelligence (AI), which have the potential to support radiologists in breast MRI interpretation and classification and help detect cancer earlier. For this reason, the ODELIA consortium has made this multi-centre dataset publicly available to assist in developing AI tools for the detection of breast cancer on MRI.",
+    "pdf_url": "http://arxiv.org/pdf/2506.00474v1",
+    "entry_id": "http://arxiv.org/abs/2506.00474v1",
+    "published": "2025-05-31",
+    "updated": "2025-05-31",
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "primary_category": "eess.IV",
+    "retrieved_at": "2025-06-05T11:40:38.180288"
+  },
+  "2206.11233v3": {
+    "title": "Automatic autism spectrum disorder detection using artificial intelligence methods with MRI neuroimaging: A review",
+    "authors": [
+      "Parisa Moridian",
+      "Navid Ghassemi",
+      "Mahboobeh Jafari",
+      "Salam Salloum-Asfar",
+      "Delaram Sadeghi",
+      "Marjane Khodatars",
+      "Afshin Shoeibi",
+      "Abbas Khosravi",
+      "Sai Ho Ling",
+      "Abdulhamit Subasi",
+      "Roohallah Alizadehsani",
+      "Juan M. Gorriz",
+      "Sara A Abdulla",
+      "U. Rajendra Acharya"
+    ],
+    "summary": "Autism spectrum disorder (ASD) is a brain condition characterized by diverse signs and symptoms that appear in early childhood. ASD is also associated with communication deficits and repetitive behavior in affected individuals. Various ASD detection methods have been developed, including neuroimaging modalities and psychological tests. Among these methods, magnetic resonance imaging (MRI) imaging modalities are of paramount importance to physicians. Clinicians rely on MRI modalities to diagnose ASD accurately. The MRI modalities are non-invasive methods that include functional (fMRI) and structural (sMRI) neuroimaging methods. However, diagnosing ASD with fMRI and sMRI for specialists is often laborious and time-consuming; therefore, several computer-aided design systems (CADS) based on artificial intelligence (AI) have been developed to assist specialist physicians. Conventional machine learning (ML) and deep learning (DL) are the most popular schemes of AI used for diagnosing ASD. This study aims to review the automated detection of ASD using AI. We review several CADS that have been developed using ML techniques for the automated diagnosis of ASD using MRI modalities. There has been very limited work on the use of DL techniques to develop automated diagnostic models for ASD. A summary of the studies developed using DL is provided in the Supplementary Appendix. Then, the challenges encountered during the automated diagnosis of ASD using MRI and AI techniques are described in detail. Additionally, a graphical comparison of studies using ML and DL to diagnose ASD automatically is discussed. We suggest future approaches to detecting ASDs using AI techniques and MRI neuroimaging.",
+    "pdf_url": "http://arxiv.org/pdf/2206.11233v3",
+    "entry_id": "http://arxiv.org/abs/2206.11233v3",
+    "published": "2022-06-20",
+    "updated": "2022-10-06",
+    "categories": [
+      "q-bio.NC",
+      "cs.LG",
+      "eess.IV"
+    ],
+    "primary_category": "q-bio.NC",
+    "retrieved_at": "2025-06-05T11:40:38.180288"
+  },
+  "2211.14500v1": {
+    "title": "Deep neuroevolution to predict primary brain tumor grade from functional MRI adjacency matrices",
+    "authors": [
+      "Joseph Stember",
+      "Mehrnaz Jenabi",
+      "Luca Pasquini",
+      "Kyung Peck",
+      "Andrei Holodny",
+      "Hrithwik Shalu"
+    ],
+    "summary": "Whereas MRI produces anatomic information about the brain, functional MRI (fMRI) tells us about neural activity within the brain, including how various regions communicate with each other. The full chorus of conversations within the brain is summarized elegantly in the adjacency matrix. Although information-rich, adjacency matrices typically provide little in the way of intuition. Whereas trained radiologists viewing anatomic MRI can readily distinguish between different kinds of brain cancer, a similar determination using adjacency matrices would exceed any expert's grasp. Artificial intelligence (AI) in radiology usually analyzes anatomic imaging, providing assistance to radiologists. For non-intuitive data types such as adjacency matrices, AI moves beyond the role of helpful assistant, emerging as indispensible. We sought here to show that AI can learn to discern between two important brain tumor types, high-grade glioma (HGG) and low-grade glioma (LGG), based on adjacency matrices. We trained a convolutional neural networks (CNN) with the method of deep neuroevolution (DNE), because of the latter's recent promising results; DNE has produced remarkably accurate CNNs even when relying on small and noisy training sets, or performing nuanced tasks. After training on just 30 adjacency matrices, our CNN could tell HGG apart from LGG with perfect testing set accuracy. Saliency maps revealed that the network learned highly sophisticated and complex features to achieve its success. Hence, we have shown that it is possible for AI to recognize brain tumor type from functional connectivity. In future work, we will apply DNE to other noisy and somewhat cryptic forms of medical data, including further explorations with fMRI.",
+    "pdf_url": "http://arxiv.org/pdf/2211.14500v1",
+    "entry_id": "http://arxiv.org/abs/2211.14500v1",
+    "published": "2022-11-26",
+    "updated": "2022-11-26",
+    "categories": [
+      "cs.NE",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.NE",
+    "retrieved_at": "2025-06-05T11:40:38.180288"
+  },
+  "2405.16942v1": {
+    "title": "PASTA: Pathology-Aware MRI to PET Cross-Modal Translation with Diffusion Models",
+    "authors": [
+      "Yitong Li",
+      "Igor Yakushev",
+      "Dennis M. Hedderich",
+      "Christian Wachinger"
+    ],
+    "summary": "Positron emission tomography (PET) is a well-established functional imaging technique for diagnosing brain disorders. However, PET's high costs and radiation exposure limit its widespread use. In contrast, magnetic resonance imaging (MRI) does not have these limitations. Although it also captures neurodegenerative changes, MRI is a less sensitive diagnostic tool than PET. To close this gap, we aim to generate synthetic PET from MRI. Herewith, we introduce PASTA, a novel pathology-aware image translation framework based on conditional diffusion models. Compared to the state-of-the-art methods, PASTA excels in preserving both structural and pathological details in the target modality, which is achieved through its highly interactive dual-arm architecture and multi-modal condition integration. A cycle exchange consistency and volumetric generation strategy elevate PASTA's capability to produce high-quality 3D PET scans. Our qualitative and quantitative results confirm that the synthesized PET scans from PASTA not only reach the best quantitative scores but also preserve the pathology correctly. For Alzheimer's classification, the performance of synthesized scans improves over MRI by 4%, almost reaching the performance of actual PET. Code is available at https://github.com/ai-med/PASTA.",
+    "pdf_url": "http://arxiv.org/pdf/2405.16942v1",
+    "entry_id": "http://arxiv.org/abs/2405.16942v1",
+    "published": "2024-05-27",
+    "updated": "2024-05-27",
+    "categories": [
+      "eess.IV",
+      "cs.CV"
+    ],
+    "primary_category": "eess.IV",
+    "retrieved_at": "2025-06-05T11:47:03.273771"
+  },
+  "2412.01829v1": {
+    "title": "Explainable Artificial Intelligence for Medical Applications: A Review",
+    "authors": [
+      "Qiyang Sun",
+      "Alican Akman",
+      "Björn W. Schuller"
+    ],
+    "summary": "The continuous development of artificial intelligence (AI) theory has propelled this field to unprecedented heights, owing to the relentless efforts of scholars and researchers. In the medical realm, AI takes a pivotal role, leveraging robust machine learning (ML) algorithms. AI technology in medical imaging aids physicians in X-ray, computed tomography (CT) scans, and magnetic resonance imaging (MRI) diagnoses, conducts pattern recognition and disease prediction based on acoustic data, delivers prognoses on disease types and developmental trends for patients, and employs intelligent health management wearable devices with human-computer interaction technology to name but a few. While these well-established applications have significantly assisted in medical field diagnoses, clinical decision-making, and management, collaboration between the medical and AI sectors faces an urgent challenge: How to substantiate the reliability of decision-making? The underlying issue stems from the conflict between the demand for accountability and result transparency in medical scenarios and the black-box model traits of AI. This article reviews recent research grounded in explainable artificial intelligence (XAI), with an emphasis on medical practices within the visual, audio, and multimodal perspectives. We endeavour to categorise and synthesise these practices, aiming to provide support and guidance for future researchers and healthcare professionals.",
+    "pdf_url": "http://arxiv.org/pdf/2412.01829v1",
+    "entry_id": "http://arxiv.org/abs/2412.01829v1",
+    "published": "2024-11-15",
+    "updated": "2024-11-15",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "primary_category": "cs.LG",
+    "retrieved_at": "2025-06-05T11:47:03.273771"
+  }
+}

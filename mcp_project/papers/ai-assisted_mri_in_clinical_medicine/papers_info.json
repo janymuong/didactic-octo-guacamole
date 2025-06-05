@@ -1,0 +1,101 @@
+{
+  "2407.01318v1": {
+    "id": "2407.01318v1",
+    "title": "Deep Dive into MRI: Exploring Deep Learning Applications in 0.55T and 7T MRI",
+    "authors": [
+      "Ana Carolina Alves",
+      "Andr\u00e9 Ferreira",
+      "Behrus Puladi",
+      "Jan Egger",
+      "Victor Alves"
+    ],
+    "summary": "The development of magnetic resonance imaging (MRI) for medical imaging has\nprovided a leap forward in diagnosis, providing a safe, non-invasive\nalternative to techniques involving ionising radiation exposure for diagnostic\npurposes. It was described by Block and Purcel in 1946, and it was not until\n1980 that the first clinical application of MRI became available. Since that\ntime the MRI has gone through many advances and has altered the way diagnosing\nprocedures are performed. Due to its ability to improve constantly, MRI has\nbecome a commonly used practice among several specialisations in medicine.\nParticularly starting 0.55T and 7T MRI technologies have pointed out enhanced\npreservation of image detail and advanced tissue characterisation. This review\nexamines the integration of deep learning (DL) techniques into these MRI\nmodalities, disseminating and exploring the study applications. It highlights\nhow DL contributes to 0.55T and 7T MRI data, showcasing the potential of DL in\nimproving and refining these technologies. The review ends with a brief\noverview of how MRI technology will evolve in the coming years.",
+    "pdf_url": "http://arxiv.org/pdf/2407.01318v1",
+    "published": "2024-07-01"
+  },
+  "1511.02949v2": {
+    "id": "1511.02949v2",
+    "title": "Transmission of travelling-wave with a simple waveguide for rodents MRI at 9.4 T",
+    "authors": [
+      "Fabian Vazquez",
+      "Oscar Marrufo",
+      "Rodrigo Martin",
+      "Sergio Solis",
+      "Alfredo O. Rodriguez"
+    ],
+    "summary": "Standard coils can cause inhomogeneities due to the standing wave patterns at\nultra high field MRI. This B1 inhomogeneity can be overcome using the\ntravelling-wave MRI (twMRI) approach. The ma- jority of twMRI research has been\ndone with clinical MRI scanners at 7T or above. More recently, this concept has\nbeen also used with animal MRI systems, using circular-cross section waveguides\nand dielectric materials for both type of scanners. We have demonstrated that\ntwMRI can be used at 3 T with clinical systems and a parallel-plate waveguide.\nHere, we investigated the use of a parallel- plate waveguide and a RF circular\ncoil to generate rat images with an animal MRI at 9.4 T.",
+    "pdf_url": "http://arxiv.org/pdf/1511.02949v2",
+    "published": "2015-11-10"
+  },
+  "1510.04875v1": {
+    "id": "1510.04875v1",
+    "title": "PET-MRI: a review of challenges and solutions in the development of integrated multimodality imaging",
+    "authors": [
+      "Stefaan Vandenberghe",
+      "Paul Marsden"
+    ],
+    "summary": "The integration of positron emission tomography (PET) and magnetic resonance\nimaging (MRI) has been an ongoing research topic for the last 20 years. This\npaper gives an overview of the different developments and the technical\nproblems associated with combining PET and MRI in one system. After explaining\nthe different detector concepts for integrating PET-MRI and minimising\ninterference the limitations and advantages of different solutions for the\ndetector and system are described for preclinical and clinical imaging systems.\nThe different integrated PET-MRI systems are described in detail. Besides\ndetector concepts and system integration the challenges and proposed solutions\nfor attenuation correction and the potential for motion correction and\nresolution recovery are also discussed in this topical review.",
+    "pdf_url": "http://arxiv.org/pdf/1510.04875v1",
+    "published": "2015-10-16"
+  },
+  "2103.05529v2": {
+    "id": "2103.05529v2",
+    "title": "Deep and Statistical Learning in Biomedical Imaging: State of the Art in 3D MRI Brain Tumor Segmentation",
+    "authors": [
+      "K. Ruwani M. Fernando",
+      "Chris P. Tsokos"
+    ],
+    "summary": "Clinical diagnostic and treatment decisions rely upon the integration of\npatient-specific data with clinical reasoning. Cancer presents a unique context\nthat influence treatment decisions, given its diverse forms of disease\nevolution. Biomedical imaging allows noninvasive assessment of disease based on\nvisual evaluations leading to better clinical outcome prediction and\ntherapeutic planning. Early methods of brain cancer characterization\npredominantly relied upon statistical modeling of neuroimaging data. Driven by\nthe breakthroughs in computer vision, deep learning became the de facto\nstandard in the domain of medical imaging. Integrated statistical and deep\nlearning methods have recently emerged as a new direction in the automation of\nthe medical practice unifying multi-disciplinary knowledge in medicine,\nstatistics, and artificial intelligence. In this study, we critically review\nmajor statistical and deep learning models and their applications in brain\nimaging research with a focus on MRI-based brain tumor segmentation. The\nresults do highlight that model-driven classical statistics and data-driven\ndeep learning is a potent combination for developing automated systems in\nclinical oncology.",
+    "pdf_url": "http://arxiv.org/pdf/2103.05529v2",
+    "published": "2021-03-09"
+  },
+  "2407.09868v2": {
+    "id": "2407.09868v2",
+    "title": "Multi-TE Single-Quantum Sodium (23Na) MRI: A Clinically Translatable Technique for Separation of Mono- and Bi-T2 Sodium Signals",
+    "authors": [
+      "Yongxian Qian",
+      "Ying-Chia Lin",
+      "Xingye Chen",
+      "Yulin Ge",
+      "Yvonne W. Lui",
+      "Fernando E. Boada"
+    ],
+    "summary": "Sodium magnetic resonance imaging (MRI) is sensitive and specific to ionic\nbalance of cells owing to 10 fold difference in sodium concentration across\nmembrane actively maintained by sodium potassium (Na+ K+) pump. Disruption of\nthe pump and membrane integrity, as seen in neurological disorders such as\nepilepsy, multiple sclerosis, bipolar disease, and mild traumatic brain injury,\nleads to a large increase in intracellular sodium. Such a cellular level\nalteration is however overshadowed by large signal from extracellular sodium,\nleaving behind a long standing pursuit to separate signals from sodium\nexhibiting mono vs biexponential transverse (T2) decay under the inherent\nconstraint of low signal to noise ratio even at advanced clinical field of 3\nTesla. Here we propose a novel technique that exploits intrinsic difference in\ntheir T2 decays by simply acquiring single quantum images at multiple echo\ntimes (TEs) and performing accurate matrix inversion at voxel. This approach\nwas then investigated using numerical models, agar phantoms and human subjects,\nshowing high accuracy of the separation in phantoms (95.8 percent for monoT2\nand 72.5 to 80.4 percent for biT2) and clinical feasibility in humans. Thus,\nsodium MRI at 3T can now facilitate detection of neurological disorders early\nat cellular level and response to treatment as well. Keywords. sodium MRI,\nsingle quantum MRI, triple quantum MRI, neuroimaging, neurodegeneration",
+    "pdf_url": "http://arxiv.org/pdf/2407.09868v2",
+    "published": "2024-07-13"
+  },
+  "2406.12807v1": {
+    "id": "2406.12807v1",
+    "title": "Probabilistic Temporal Prediction of Continuous Disease Trajectories and Treatment Effects Using Neural SDEs",
+    "authors": [
+      "Joshua Durso-Finley",
+      "Berardino Barile",
+      "Jean-Pierre Falet",
+      "Douglas L. Arnold",
+      "Nick Pawlowski",
+      "Tal Arbel"
+    ],
+    "summary": "Personalized medicine based on medical images, including predicting future\nindividualized clinical disease progression and treatment response, would have\nan enormous impact on healthcare and drug development, particularly for\ndiseases (e.g. multiple sclerosis (MS)) with long term, complex, heterogeneous\nevolutions and no cure. In this work, we present the first stochastic causal\ntemporal framework to model the continuous temporal evolution of disease\nprogression via Neural Stochastic Differential Equations (NSDE). The proposed\ncausal inference model takes as input the patient's high dimensional images\n(MRI) and tabular data, and predicts both factual and counterfactual\nprogression trajectories on different treatments in latent space. The NSDE\npermits the estimation of high-confidence personalized trajectories and\ntreatment effects. Extensive experiments were performed on a large,\nmulti-centre, proprietary dataset of patient 3D MRI and clinical data acquired\nduring several randomized clinical trials for MS treatments. Our results\npresent the first successful uncertainty-based causal Deep Learning (DL) model\nto: (a) accurately predict future patient MS disability evolution (e.g. EDSS)\nand treatment effects leveraging baseline MRI, and (b) permit the discovery of\nsubgroups of patients for which the model has high confidence in their response\nto treatment even in clinical trials which did not reach their clinical\nendpoints.",
+    "pdf_url": "http://arxiv.org/pdf/2406.12807v1",
+    "published": "2024-06-18"
+  },
+  "1905.04176v2": {
+    "id": "1905.04176v2",
+    "title": "Training a Neural Network for Gibbs and Noise Removal in Diffusion MRI",
+    "authors": [
+      "Matthew J. Muckley",
+      "Benjamin Ades-Aron",
+      "Antonios Papaioannou",
+      "Gregory Lemberskiy",
+      "Eddy Solomon",
+      "Yvonne W. Lui",
+      "Daniel K. Sodickson",
+      "Els Fieremans",
+      "Dmitry S. Novikov",
+      "Florian Knoll"
+    ],
+    "summary": "We develop and evaluate a neural network-based method for Gibbs artifact and\nnoise removal. A convolutional neural network (CNN) was designed for artifact\nremoval in diffusion-weighted imaging data. Two implementations were\nconsidered: one for magnitude images and one for complex images. Both models\nwere based on the same encoder-decoder structure and were trained by simulating\nMRI acquisitions on synthetic non-MRI images. Both machine learning methods\nwere able to mitigate artifacts in diffusion-weighted images and diffusion\nparameter maps. The CNN for complex images was also able to reduce artifacts in\npartial Fourier acquisitions. The proposed CNNs extend the ability of artifact\ncorrection in diffusion MRI. The machine learning method described here can be\napplied on each imaging slice independently, allowing it to be used flexibly in\nclinical applications.",
+    "pdf_url": "http://arxiv.org/pdf/1905.04176v2",
+    "published": "2019-05-10"
+  }
+}

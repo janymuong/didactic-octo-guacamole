@@ -2,3 +2,4 @@
 .ipynb_checkpoints
 hello_ai
 __pycache__
+.venv

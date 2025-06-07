@@ -13,7 +13,7 @@ from datetime import datetime
 nest_asyncio.apply()
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), '../.env'))
 
 @dataclass
 class ConversationContext:

@@ -1,9 +1,9 @@
 [project]
 name = "mcp-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Creating AI agents with MCP"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.13"
 dependencies = [
     "anthropic>=0.52.2",
     "arxiv>=2.2.0",

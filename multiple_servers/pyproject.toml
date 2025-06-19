@@ -1,13 +1,9 @@
 [project]
-name = "mcp-project"
+name = "multiple-servers"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.13"
 dependencies = [
-    "openai>=1.12.0",
-    "arxiv>=2.2.0",
-    "mcp>=1.8.0",
-    "nest-asyncio>=1.6.0",
-    "python-dotenv>=1.1.0",
+    "openai>=1.88.0",
 ]

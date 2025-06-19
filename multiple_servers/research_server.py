@@ -1,3 +1,5 @@
+import sys
+import asyncio
 import arxiv
 import json
 import os
@@ -98,7 +100,9 @@ def extract_info(paper_id: str) -> str:
     return f"There's no saved information related to paper {paper_id}."
 
 
-
 if __name__ == "__main__":
-    # Initialize and run the server
-    mcp.run(transport='stdio')
+    try:
+        mcp.run(transport='stdio')
+    except (KeyboardInterrupt, asyncio.CancelledError):
+        print("Received signal to terminate. Shutting down gracefully...")
+        sys.exit(0)

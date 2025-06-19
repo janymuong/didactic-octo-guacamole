@@ -11,7 +11,6 @@ import asyncio
 import signal
 import sys
 import os
-import platform
 import warnings
 
 # Suppress ResourceWarning about unclosed pipes
@@ -29,11 +28,6 @@ def handle_sigterm(signum, frame):
 # Set up signal handlers
 signal.signal(signal.SIGINT, handle_sigterm)
 signal.signal(signal.SIGTERM, handle_sigterm)
-
-# Windows-specific event loop policy
-if platform.system() == 'Windows':
-    # Use the ProactorEventLoop by default on Windows
-    asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
 
 class ToolDefinition(TypedDict):
     name: str
@@ -329,23 +323,11 @@ async def main():
 def run():
     """Wrapper function to handle the event loop"""
     try:
-        if platform.system() == 'Windows':
-            # Windows-specific handling
-            asyncio.run(main())
-        else:
-            # Unix-like systems
-            asyncio.run(main())
+        asyncio.run(main())
     except (KeyboardInterrupt, GracefulExit):
         print("\nShutdown complete.")
     except Exception as e:
         print(f"\nUnexpected error: {e}")
-    finally:
-        # Cleanup any remaining asyncio resources
-        if platform.system() == 'Windows':
-            with suppress(Exception):
-                loop = asyncio.get_event_loop()
-                if not loop.is_closed():
-                    loop.close()
 
 if __name__ == "__main__":
     run()

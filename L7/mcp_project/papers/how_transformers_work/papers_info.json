@@ -1,0 +1,49 @@
+{
+  "2504.16361v1": {
+    "title": "Comparing Different Transformer Model Structures for Stock Prediction",
+    "authors": [
+      "Qizhao Chen"
+    ],
+    "summary": "This paper compares different Transformer model architectures for stock index\nprediction. While many studies have shown that Transformers perform well in\nstock price forecasting, few have explored how different structural designs\nimpact performance. Most existing works treat the Transformer as a black box,\noverlooking how specific architectural choices may affect predictive accuracy.\nHowever, understanding these differences is critical for developing more\neffective forecasting models. This study aims to identify which Transformer\nvariant is most suitable for stock forecasting. This study evaluates five\nTransformer structures: (1) encoder-only Transformer, (2) decoder-only\nTransformer, (3) Vanilla Transformer (encoder + decoder), (4) Vanilla\nTransformer without embedding layers, and (5) Vanilla Transformer with\nProbSparse attention. Results show that Transformer-based models generally\noutperform traditional approaches. Transformer with decoder only structure\noutperforms all other models in all scenarios. Transformer with ProbSparse\nattention has the worst performance in almost all cases.",
+    "pdf_url": "http://arxiv.org/pdf/2504.16361v1",
+    "published": "2025-04-23"
+  },
+  "1102.3199v1": {
+    "title": "How to Transform and Filter Images using Iterated Function Systems",
+    "authors": [
+      "Michael F. Barnsley",
+      "Brendan Harding",
+      "Konstantin Igudesman"
+    ],
+    "summary": "We present a general theory of fractal transformations and show how it leads\nto a new type of method for filtering and transforming digital images. This\nwork substantially generalizes earlier work on fractal tops. The approach\ninvolves fractal geometry, chaotic dynamics, and an interplay between discrete\nand continuous representations. The underlying mathematics is established and\napplications to digital imaging are described and exemplified.",
+    "pdf_url": "http://arxiv.org/pdf/1102.3199v1",
+    "published": "2011-02-15"
+  },
+  "cs/0702067v1": {
+    "title": "The Haar Wavelet Transform of a Dendrogram: Additional Notes",
+    "authors": [
+      "Fionn Murtagh"
+    ],
+    "summary": "We consider the wavelet transform of a finite, rooted, node-ranked, $p$-way\ntree, focusing on the case of binary ($p = 2$) trees. We study a Haar wavelet\ntransform on this tree. Wavelet transforms allow for multiresolution analysis\nthrough translation and dilation of a wavelet function. We explore how this\nworks in our tree context.",
+    "pdf_url": "http://arxiv.org/pdf/cs/0702067v1",
+    "published": "2007-02-10"
+  },
+  "1204.6719v1": {
+    "title": "The Design and Algorithms of a Verification Condition Generator",
+    "authors": [
+      "Radu Grigore"
+    ],
+    "summary": "This dissertation discusses several problems loosely related, because they\nall involve a verification condition generator. The Boogie language is\nintroduced; the architecture of a verification-generator is described. Then\ncome more interesting parts. (1) Moving to a passive form representation can be\nseen as an automatic transformation into a pure functional language. How to\nformalize this transformation and what is its complexity? (2) How do various\nways of describing the semantics of procedural languages (predicate\ntransformers, operational semantics) relate to each other? (3) How to do\nincremental verification? That is, how to work less when re-verifying a program\nthat changed only a little since the verifier was last run. (4) How to detect\nunreachable code, taking into account formal specifications?",
+    "pdf_url": "http://arxiv.org/pdf/1204.6719v1",
+    "published": "2012-04-30"
+  },
+  "2406.16784v1": {
+    "title": "The Progression of Transformers from Language to Vision to MOT: A Literature Review on Multi-Object Tracking with Transformers",
+    "authors": [
+      "Abhi Kamboj"
+    ],
+    "summary": "The transformer neural network architecture allows for autoregressive\nsequence-to-sequence modeling through the use of attention layers. It was\noriginally created with the application of machine translation but has\nrevolutionized natural language processing. Recently, transformers have also\nbeen applied across a wide variety of pattern recognition tasks, particularly\nin computer vision. In this literature review, we describe major advances in\ncomputer vision utilizing transformers. We then focus specifically on\nMulti-Object Tracking (MOT) and discuss how transformers are increasingly\nbecoming competitive in state-of-the-art MOT works, yet still lag behind\ntraditional deep learning methods.",
+    "pdf_url": "http://arxiv.org/pdf/2406.16784v1",
+    "published": "2024-06-24"
+  }
+}
